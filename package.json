@@ -1,6 +1,13 @@
 {
     "name":"callback-utils",
     "version":"1.0.0",
+    "homepage":"https://github.com/VirtuOz/node-callback-utils",
+    "contributors":[
+    	{
+    		"name":"Kevan Dunsmore",
+    		"email":"kdunsmore@virtuoz.com"
+    	}
+    ],
     "scripts":{
         "test":"node_modules/mocha/bin/_mocha test/*_test.js --ignore-leaks -t 20000 --reporter spec",
         "test-jenkins":"node_modules/mocha/bin/_mocha test/*_test.js --ignore-leaks -t 20000 --reporter xunit-file",
